@@ -32,5 +32,5 @@ register(REPORT,
     category=CATEGORY_WEB,
     reportclass='ReportClass',
     optionclass='ReportOptions',
-    report_modes=[REPORT_MODE_GUI],
+    report_modes=[REPORT_MODE_GUI, REPORT_MODE_CLI],
     )
